@@ -1,0 +1,20 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		ul
+			li('style'='list-style:;color:red;').Class-Name
+				My Text
+				My Text 
+				My Text 
+				My Text
+	block content
+	- var condition = 5!=4;
+	if condition
+		p It's true...
+	- var myArr = [1,2,3]
+	if myArr.length
+		each value in myArr
+			p= value

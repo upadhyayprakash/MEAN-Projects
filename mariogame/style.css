@@ -1,0 +1,118 @@
+body {
+  background-color: #d5caff;
+  padding: 20px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #f9ffc7;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+/* Custom Classes */
+.game-grid-table
+{
+	width:600px;
+	margin:0 auto;
+	font-size:18px;
+	background-color: #ffffff;
+	border-style:none;
+	border-collapse: separate;
+}
+
+.game-grid-table th
+{
+	text-align: left;
+}
+
+.game-grid-table td
+{
+	/* width: 100px; */
+    /* height: 100px; */
+}
+
+.game-grid-table tr.alt1
+{
+	background-color:#fffff;
+}
+
+.game-grid-table tr.alt2
+{
+	background-color:#f7f7f7;
+}
+
+.btn
+{
+	font-weight:600;
+}
+
+.add-product-btn
+{
+	margin:0 0 10px 140px;
+}
+
+.modalContainer
+{
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000b8;
+}
+
+.addProductModal
+{
+	background-color: rgba(255, 255, 255, 0.77);
+    padding: 25px;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 10%;
+	border-radius:10px;
+}
+
+.modal-title
+{
+	text-align:center;
+	margin-bottom:10px;
+}
+
+/* Game Statistics Table Styling */
+.game-stats-table
+{
+	width:80%;
+	margin:0 auto;
+	font-size:18px;
+	background-color: #ffffff;
+}
+
+
+.game-stats-table th
+{
+	text-align: left;
+}

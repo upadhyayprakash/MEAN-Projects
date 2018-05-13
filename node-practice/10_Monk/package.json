@@ -1,0 +1,21 @@
+{
+  "name": "5-expressfirstapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-handlebars": "^3.0.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^1.4.40",
+    "monk": "^6.0.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
+}
